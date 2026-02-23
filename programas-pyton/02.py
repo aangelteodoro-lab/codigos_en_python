@@ -6,7 +6,7 @@ while True:
         if entrada == "salir":
             print("gracias por la ayuda esperamos que sean todos")
             break
-        numero_serie = float(input("escribe el numero de serie de el dispositivo:"))
+        numero_serie = input("escribe el numero de serie de el dispositivo:")
         estado = input("escribe el estado de el dispositivo:")
         equipo = {"dispositivo": dispositivo,
                 "numero_serie": numero_serie,
